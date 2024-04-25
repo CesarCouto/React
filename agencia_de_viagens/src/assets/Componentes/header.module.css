@@ -1,0 +1,48 @@
+.menu{
+   position: relative;
+   background-color: #FFF;
+   height: 100px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color: #000;
+}
+
+.NavLeft{
+   position: relative;
+   height: 100%;
+   width: 15%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.logo{
+    width: 60%;
+    height: 100%;
+}
+
+.NavCenter{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.NavRight{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.busca{
+    height: 30px;
+    height: 30px;
+}

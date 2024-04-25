@@ -1,0 +1,15 @@
+.escocia{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-image: url(./imagens/escocia.jpeg);
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    
+}
+

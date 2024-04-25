@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    color: #113E66;
+}
+
+.imagem{
+    width: 500px;
+    height: 500px;
+}
+
+p{
+    text-align: center;
+    font-size: 19px;
+}
