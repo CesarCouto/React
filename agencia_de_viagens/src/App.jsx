@@ -5,6 +5,7 @@ import Muralhas_da_China from './assets/Componentes/Muralhas_da_China'
 import Header from './assets/Componentes/header'
 import Aruba from './assets/Componentes/Aruba'
 import Home from './assets/Componentes/Home'
+import Footer from './assets/Componentes/Footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <Grand_Canyon />
      <Muralhas_da_China />
      <Aruba />
+     <Footer />
     </div>
   )
 }
