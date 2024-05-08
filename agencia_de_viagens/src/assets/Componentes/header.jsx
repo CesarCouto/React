@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import Styles from './header.module.css'
 import Logo from './imagens/logo.jpeg'
 import Lupa from './imagens/lupa.jpeg'
@@ -11,11 +13,11 @@ function Header(){
                 </nav>
 
                 <nav className={Styles.NavCenter}>
-                    <p>Home</p>
-                    <p>Escócia</p>
-                    <p>Grand Canyon</p>
-                    <p>Muralhas da China</p>
-                    <p>Aruba</p>
+                    <p><Link to='/'> Home </Link> </p>
+                    <p><Link to='/Escocia'> Escócia </Link> </p>
+                    <p><Link to='/Grand_Canyon'>Grand Canyon</Link>  </p>
+                    <p><Link to='/Muralhas_da_China'>Muralhas da China</Link> </p>
+                    <p><Link to='/Aruba'>Aruba</Link> </p>
                 </nav>
 
                 <nav className={Styles.NavRight}>
